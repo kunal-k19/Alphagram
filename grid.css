@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Raleway:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500&family=Padauk&family=Poiret+One&family=Signika:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	
+}
+body{
+	background: #dfeded;
+}
+.wrapper{
+	width: 100%;
+	height: 50px;
+	background: #fff;
+}
+
+.navbar{
+	background: #dfeded;
+	width: 100%;
+	position: fixed;
+	padding: 0;
+	z-index: 999;
+}
+.navbar .logo{
+	color: #050505;
+	font-size: 20px;
+	font-weight: 50;
+	font-family: 'Montserrat';
+	letter-spacing: 10px;
+	line-height: 80px;
+	padding: 0 50px;
+	margin-left: 20px;
+}
+.navbar .logo span{
+	font-weight: 600;
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+.navbar ul li a{
+	color: #050505;
+	padding-right: 150px;
+	font-family: 'Raleway';
+	opacity:0.5;
+	transition: 0.2s ease;
+	
+}
+.navbar ul li a:hover{
+	opacity:1;
+}
+.picture{
+	width: 100%;
+	height: 570px;
+	background: #f7d086;
+	margin-bottom: 10px;
+	top: 30px;
+	position: relative;
+	
+
+
+	
+
+}
+.picture{
+	background: rgb(0,0,0,0.5) url(images/glenn.jpg);
+	background-size: cover;
+	background-blend-mode: darken;
+
+}
+.picture .line{
+	height: 2px;
+	width: 320px;
+	margin-top: 230px;  
+	background: #fff;
+	
+	position: absolute;
+	left: 505px;
+}
+
+h1{
+	text-align: center;
+	font-family: "Montserrat";
+	letter-spacing: 20px;
+	font-size: 50px;
+	padding-top: 170px;
+	font-weight: 50;
+	color: #ffffff;
+	filter: brightness(100%);
+
+}
+.picture h1 span{
+	font-weight: 800;
+}
+.container{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	margin-bottom: 15px;
+	margin-top: 45px;
+	width: 100%;
+	display: grid;
+	grid-auto-flow: dense;
+	grid-template: "1fr 1fr" 70vh
+					"1fr 1fr" 70vh
+					"1fr 1fr" 70vh
+					"1fr 1fr" 70vh;
+					
+					
+	grid-gap: 25px;
+	
+}
+.container .box{
+	position: relative;
+	background: #000;
+	
+	
+}
+.container .box img{
+	position: absolute;
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+
+
+}
+
+
+
+img{
+	opacity: 1;
+	transition: 0.2s ease;
+}
+.box:hover img{
+	opacity: 0.7;
+}
+.box{
+	position: relative;
+}
+.box h2{
+	position: relative;
+	text-align: center;
+	
+	color: #fff;
+	letter-spacing: 5px;
+	filter: brightness(75%);
+}

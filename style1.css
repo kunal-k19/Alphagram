@@ -1,0 +1,538 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Raleway:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500&family=Padauk&family=Poiret+One&family=Signika:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	
+}
+body{
+	background: #dfeded;
+}
+.wrapper{
+	width: 100%;
+	height: 50px;
+	background: #fff;
+}
+
+.navbar{
+	background: #dfeded;
+	width: 100%;
+	position: fixed;
+	padding: 0;
+	z-index: 999;
+}
+.navbar .logo{
+	color: #050505;
+	font-size: 35px;
+	font-weight: 600;
+	font-family: 'Caveat';
+	line-height: 80px;
+	padding: 0 100px;
+	margin-left: 20px;
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+.navbar ul li a{
+	color: #050505;
+	padding-right: 150px;
+	font-family: 'Raleway';
+	opacity:0.5;
+	transition: 0.2s ease;
+	
+}
+.navbar ul li a:hover{
+	opacity:1;
+}
+
+
+
+.picture{
+	width: 100%;
+	height: 570px;
+	background: #f7d086;
+	margin-bottom: 10px;
+	top: 30px;
+	position: relative;
+	
+
+
+	
+
+}
+.picture{
+	background-image: url(images/glenn.jpg);
+	background-size: cover;
+	filter: brightness(75%);
+
+}
+.picture .line{
+	height: 2px;
+	width: 550px;
+	margin-top: 230px;  
+	background: #fff;
+	
+	position: absolute;
+	left: 390px;
+}
+
+h1{
+	text-align: center;
+	font-family: "Montserrat";
+	letter-spacing: 20px;
+	font-size: 50px;
+	padding-top: 170px;
+	color: #ffffff;
+	filter: brightness(100%);
+
+}
+
+
+
+
+
+
+.about{
+	margin-top: 100px;
+	
+}
+
+.acontent{
+	width: 1150px;
+	height: 600px;
+	left: 100px;
+	background: #cee8c8;
+	margin-bottom: 10px;
+	position: relative;
+	padding-bottom: 30px;
+}
+.acontent .picbox{
+	position: absolute;
+	float: right;
+	height: 400px;
+	width: 300px;
+	right: 30px;
+	background: #ccc7c6;
+	top: 10px;
+}
+.picbox .pic1{
+	object-fit: contain;
+	width: 500px;
+	height: 650px;
+	top: -30px;
+	right: -60px;
+	position: absolute;
+	
+
+}
+.pic1{
+	
+	background: url(images/shivraj.jpg) no-repeat center / cover;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #dfeded;
+	position: relative;
+}
+.acontent .intro1{
+	position: absolute;
+	float: left;
+	left: 200px;
+	height: 500px;
+	width: 500px;
+	top: 25px;
+	background: #e0e0e0;
+}
+
+.intro1{
+	position: relative;
+}
+.intro1 .hey{
+	object-fit: contain;
+	position: absolute;
+	height: 200px;
+	width: 300px;
+	background: #dfeded;
+	float: left;
+	top: 20px;
+	left: -250px;
+}
+.intro1 .line2{
+	position: absolute;
+	background: #050505;
+	width: 2px;
+	height: 400px;
+	float: left;
+	left: 80px;
+	top: 45px;
+}
+
+.hey{
+	position: relative;
+}
+.hey .line1{
+	position: absolute;
+	background: #050505;
+	width: 2px;
+	height: 140px;
+	float: right;
+	right: 30px;
+	top: 30px;
+}
+
+.intro1 .hey p{
+	margin-top: 25px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-left: 20px;
+	font-family: 'Raleway';
+	font-weight: 100px;
+	font-size: 17px;
+	
+}
+
+.mywork{
+	
+	
+	
+	margin-top: 150px;
+	margin-bottom: 300px;
+}
+.mcontent{
+	width: 1030px;
+	height: 350px;
+	left: 165px;
+	background: #66a6ad;
+	margin-bottom: 10px;
+	position: relative;
+	padding-bottom: 30px;
+	background-image: url(images/beach1.jpg);
+
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.mcontent .pic2{
+	width: 400px;
+	height: 300px;
+	object-fit: contain;
+	top: 150px;
+	left: 500px;
+	position: absolute;
+	background: #98d3f5;
+	background: url(images/Goa.jpg) no-repeat center / cover;
+	
+	border-width: 5px;
+	border-style: solid;
+	border-color: #dfeded;
+
+
+}
+.mcontent{
+	position: relative;
+}
+.mcontent .para{
+	background: #b2d4ed;
+	float: left;
+	top: 200px;
+	height: 200px;
+	width: 300px;
+	position: absolute;
+	left: 40px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #dfeded;
+}
+.pic2{
+	position: relative;
+}
+.pic2 .intro2{
+	position: absolute;
+	object-fit: cover;
+	height: 200px;
+	width: 200px;
+	top: 120px;
+
+	float: left;
+	right: -100px;
+	background: #3d5c6e;
+	background: url(images/Coconut.jpg) no-repeat center / cover;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #dfeded;
+
+}
+.mcontent p{
+	text-align: left;
+	margin-left: 20px;
+	padding-top: 70px;
+	padding-right: 20px;
+	font-family: 'Raleway';
+	justify-content: space-between;
+	letter-spacing: 1.5px;
+	font-size: 21px;
+	text-align: justify;
+
+}
+.work1{
+	width: 900px;
+	height: 500px;
+	left: 165px;
+	background: #eddeff;
+	margin-bottom: 10px;
+	top: 200px;
+	position: relative;
+	padding-bottom: 30px;
+}
+
+.work1 .sunset{
+
+	background: url(images/sunset2.jpg) no-repeat center / cover;;
+	float: left;
+	top: -40px;
+	height: 450px;
+	width: 400px;
+	position: absolute;
+	left: 30px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #dfeded;
+
+
+}
+.sunset{
+	position: relative;
+}
+.sunset .sunset1{
+	float: right;
+	height: 300px;
+	width: 300px;
+	right: 220px;
+	top: 40px;
+	background: url(images/sunset3.jpg) no-repeat center / cover;  
+	position: absolute;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #dfeded;
+}
+.work1 .sunset2{
+
+	background:  url(images/sunset1.jpg) no-repeat center / cover;
+	float: left;
+	top: 250px;
+	height: 300px;
+	width: 450px;
+	position: absolute;
+	left: -50px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #dfeded
+
+
+}
+.work1 p{
+	text-align: right;
+	padding-top: 40px;
+	font-size: 35px;
+	font-family: 'Covered By Your Grace';
+	margin-right: 80px;
+	justify-content: space-between;
+	color: #000;
+
+}
+.work2{
+	width: 900px;
+	height: 500px;
+	float: right;
+	background: #cfdde3;
+	margin-bottom: 10px;
+	top: 300px;
+	position: relative;
+	padding-bottom: 30px;
+	right: 150px;
+}
+.work2 .getaway{
+
+	background: url(images/bali1.jpg) no-repeat center / cover;
+	float: right;
+	top: -40px;
+	height: 450px;
+	width: 400px;
+	position: absolute;
+	right: 30px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #dfeded;
+}
+.getway{
+	position: relative;
+}
+.getaway .getaway1{
+	float: right;
+	height: 300px;
+	width: 300px;
+	left: 220px;
+	top: 40px;
+	background: url(images/Singapore.jpg) no-repeat center / cover;  
+	position: absolute;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #dfeded;
+}
+.work2 .getaway2{
+
+	background:  url(images/bali2.jpg) no-repeat center / cover;
+	float: right;
+	top: 250px;
+	height: 300px;
+	width: 450px;
+	position: absolute;
+	right: -50px;
+	border-width: 10px;
+	border-style: solid;
+	border-color: #dfeded
+
+
+}
+.work2 p{
+	text-align: left;
+	padding-top: 40px;
+	font-size: 27px;
+	font-family: 'Covered By Your Grace';
+	margin-left: 40px;
+	justify-content: space-between;
+	color: #000;
+
+}
+.work3{
+	width: 900px;
+	height: 500px;
+	float: left;
+	background: #cfdde3;
+	margin-bottom: 10px;
+	top: 400px;
+	position: relative;
+	padding-bottom: 30px;
+	left: 170px;
+}
+
+.work3 .portrait{
+
+	background: url(images/portrait5.jpg) no-repeat center / cover;
+	float: left;
+	top: -40px;
+	height: 450px;
+	width: 400px;
+	position: absolute;
+	right: 470px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #dfeded;
+
+
+}
+.portrait{
+	position: relative;
+}
+.portrait .portrait1{
+	float: left;
+	height: 300px;
+	width: 300px;
+	right: 230px;
+	top: 40px;
+	background: url(images/portrait4.jpg) no-repeat center / cover;  
+	position: absolute;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #dfeded;
+}
+.work3 .portrait2{
+
+	background:  url(images/portrait2.jpg) no-repeat center / cover;
+	float: left;
+	top: 250px;
+	height: 300px;
+	width: 450px;
+	position: absolute;
+	right: 500px;
+	border-width: 10px;
+	border-style: solid;
+	border-color: #dfeded
+
+
+}
+.work3 p{
+	text-align: right;
+	padding-top: 40px;
+	font-size: 27px;
+	font-family: 'Covered By Your Grace';
+	margin-right: 150px;
+	justify-content: space-between;
+	color: #000;
+}
+
+.imgbox{
+	width: 500px;
+	height: 400px;
+	top: 500px;
+	position: relative;
+	background: #dfeded;
+	float: right;
+	right: 100px;
+	
+
+}
+.imgbox .swiper-container {
+		position: absolute;
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 30px;
+
+      }
+
+      .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        border-width: 5px;
+	border-style: solid;
+	border-color: #dfeded;
+      }
+
+.container{
+	position: relative;
+	top: 900px;
+	column-count: 4;
+	padding: 20px;
+	background: #000;
+	float: left;
+}
+
+.image{
+	display: inline-block;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+img{
+	width: 100%;
+
+}

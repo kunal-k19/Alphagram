@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width, initial-scale-1.0">
+	<title></title>
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+	<link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+	<div class="wrapper ">
+	
+	<nav class="navbar">
+		
+			<label class="logo">Alphagram.</label>
+			<ul >
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About Me</a></li>
+				<li><a href="#">My Work</a></li>
+				<li><a href="#">Contact</a></li>
+
+			</ul>
+			
+		
+
+	</nav>
+	</div>
+	<section class="home" id="home">
+		<div class="picture" id="parallax">
+			<div class="line"></div>
+			<h1>ALPHAGRAM</h1>
+			
+			
+			
+		</div>
+	</section>
+
+	<section class="about" id="about">
+		<div class="acontent">
+			<div class="picbox">
+			<div class="pic1">
+				
+			</div>
+			</div>
+			<div class="intro1">
+				<div class="line2"></div>
+				<div class="hey">
+					
+					<p>A Photographer,</p><br><p>A Goof,</p><br><p>And A French Fries Enthusiast</p>
+					<div class="line1"></div>
+				</div>
+			</div>
+			
+		</div>
+	</section>
+
+	<section class="mywork" id="mywork">
+		<div class="mcontent" id="paralla">
+			<div class="para"><p>Here's What Me<br> Playing Around With<br> My Camera Has Led To</p></div>
+			<div class="pic2">
+				<div class="intro2"></div>
+			</div>
+
+			
+			
+
+			
+		</div>
+
+		<div class="work1"><p>OF OCEANS & SUNSETS</p><div class="sunset2"></div>
+			<div class="sunset">
+				<div class="sunset1"></div>
+			</div>
+		</div>
+		<div class="work2"><p>BACKPACKING 'ROUND THE SOUTH-EAST</p><div class="getaway2"></div>
+			<div class="getaway">
+				<div class="getaway1"></div>
+			</div>
+		</div>
+		<div class="work3"><p>PORTRAIT GAME</p><div class="portrait2"></div>
+			<div class="portrait">
+				<div class="portrait1"></div>
+			</div>
+		</div>
+		<div class="imgbox">
+		<div class="swiper-container mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+	</div>	
+
+	<div  class="container">
+		<div class="image">
+			<img src="images/aaa.jpeg">
+		</div>
+		<div class="image">
+			<img src="images/aaa.jpeg">
+		</div>
+		<div class="image">
+			<img src="images/aaa.jpeg">
+		</div>
+		<div class="image">
+			<img src="images/aaa.jpeg">
+		</div>
+		<div class="image">
+			<img src="images/aaa.jpeg">
+		</div>
+		<div class="image">
+			<img src="images/aaa.jpeg">
+		</div>
+		<div class="image">
+			<img src="images/aaa.jpeg">
+		</div>
+		<div class="image">
+			<img src="images/aaa.jpeg">
+		</div>
+		<div class="image">
+			<img src="images/aaa.jpeg">
+		</div>
+	</div>
+
+	</section>
+	
+<script src="main.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
+</body>
+</html>

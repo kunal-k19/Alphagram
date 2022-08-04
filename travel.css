@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Raleway:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500&family=Padauk&family=Poiret+One&family=Signika:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	
+}
+body{
+	background: #dfeded;
+}
+.wrapper{
+	width: 100%;
+	height: 50px;
+	background: #fff;
+}
+
+.navbar{
+	background: #dfeded;
+	width: 100%;
+	position: fixed;
+	padding: 0;
+	z-index: 999;
+}
+
+.navbar .logo a{
+	color: #050505;
+	font-size: 20px;
+	font-weight: 50;
+	font-family: "Montserrat";
+	letter-spacing: 10px;
+	line-height: 80px;
+	padding: 0 50px;
+	margin-left: 20px;
+}
+.navbar .logo span{
+	font-weight: 600;
+}
+.navbar ul{
+	float: right;
+	margin-right: 30px;
+}
+.navbar ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+.navbar ul li a{
+	color: #050505;
+	padding-right: 20px;
+	padding-left: 20px;
+	font-family: 'Raleway';
+	opacity:0.5;
+	transition: 0.2s ease;
+	
+}
+.navbar ul li a:hover{
+	opacity:1;
+}
+
+.lab{
+	float: right;
+	margin-top: 33px;
+	font-size: 15px;
+	margin-right: 60px;
+	opacity:0.5;
+	transition: 0.2s ease;
+	display: none;
+	cursor: pointer;
+}
+.lab:hover{
+	opacity:1;
+}
+#check{
+	float: right;
+	margin-top: 33px;
+	margin-right: 70px;
+	display: none;
+}
+
+.picture{
+	width: 100%;
+	height: 570px;
+	background: #f7d086;
+	margin-bottom: 10px;
+	top: 30px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+
+
+	
+
+}
+.picture{
+	background: rgb(0,0,0,0.7) url(images/singapore1.jpg);
+	background-size: cover;
+	
+	background-repeat: no-repeat;
+	background-blend-mode: darken;
+
+}
+
+
+h1{
+	text-align: center;
+	font-family: "Montserrat";
+	letter-spacing: 20px;
+	font-size: 50px;
+	font-weight: 50;
+	color: #ffffff;
+	
+
+}
+.picture h1 span{
+	font-weight: 800;
+}
+.container{
+	position: relative;
+	column-count: 2;
+	padding: 20px;
+	top: 15px;
+	
+
+}
+.image{
+	display: inline-block;
+	padding-bottom: 5px;
+	padding-top: 5px; 
+	
+	
+
+}
+img{
+	width: 100%;
+	height: 400px;
+	object-fit: cover;
+	opacity: 1;
+	
+}
+.image img:hover{
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+.footer{
+	margin-top: 20px;
+	height: 100px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+
+}
+.footer a{
+	margin-top: 10px;
+	color: #000;
+
+}
+.footer a i{
+	padding-left: 10px;
+	padding-right: 10px;
+	transition: 0.2s ease;
+}
+.footer a i:hover{
+	transform: scale(1.2);
+}
+.footer{
+	position: relative;
+}
+.footer2{
+	position: absolute;
+	height: 50px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+.footer2 p{
+	margin-top: 15px;
+	font-family: "Padauk";
+	font-size: 10px;
+	letter-spacing: 2px;
+}
+@media screen and (max-width: 1277px){
+	.container{
+		column-count: 2;
+	}
+	
+
+	.navbar .logo a{
+		font-size: 18px;
+		
+	}
+	
+}
+
+
+
+
+
+@media screen and (max-width: 1277px){
+	.container{
+		column-count: 2;
+	}
+	
+
+	.navbar .logo a{
+		font-size: 18px;
+		
+	}
+	.navbar ul li a{
+		font-size: 15px;
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+}
+
+
+
+@media screen and (max-width: 1365px){
+	.container{
+		
+	}
+}
+
+@media screen and (max-width: 1000px){
+	.container{
+		column-count: 2;
+	}
+	.navbar .logo a{
+		font-size: 15px;
+		letter-spacing: 5px;
+		margin-left: -2px;
+	}
+	
+
+
+}
+@media screen and (max-width: 858px){
+	
+	
+}
+@media screen and (max-width: 768px){
+	.container{
+		column-count: 1;
+		
+	}
+	.navbar .logo a{
+		font-size: 15px;
+		letter-spacing: 5px;
+		margin-left: -7px;
+	}
+	.picture h1{
+		font-size: 15px;
+	}
+
+	ul{
+	
+	position: fixed;
+	height: 100vh;
+	text-align: center;
+	left: -1000px;
+	top: 80px;
+	background: #dfeded;
+	width: 100%;
+	transition: all 0.5s;
+	}
+	.navbar ul li{
+		display: block;
+		margin-top: 30px;
+	}
+
+	.lab{
+		display: block;
+	}
+
+	#check:checked ~ ul{
+		left: 0;
+	}
+
+	#check:checked ~ body{
+
+	}
+}
+@media screen and (max-width: 500px){
+	ul{
+	
+	position: fixed;
+	height: 100vh;
+	text-align: center;
+	left: -500px;
+	top: 80px;
+	background: #dfeded;
+	width: 100%;
+	transition: all 0.5s;
+	}
+	.navbar ul li{
+		display: block;
+		margin-top: 30px;
+	}
+
+	.lab{
+		display: block;
+	}
+
+	#check:checked ~ ul{
+		left: 0;
+		
+	}
+	ul{
+		::-webkit-scrollbar{
+			display: none;
+		}
+	}
+}
+
+
